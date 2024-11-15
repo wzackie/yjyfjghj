@@ -1,0 +1,190 @@
+*{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+     text-transform: uppercase;
+     font-family: "Raleway", sans-serif;
+   }
+p{
+     text-transform: lowercase;
+     color:var(--gray);
+}
+:root{
+     --blu:#56ccf2;
+     --gray:#777;
+     --bg:linear-gradient(130deg , #00000071 ,#00000071);
+     --fo:font-family:"Raleway", sans-serif;
+     --ft:font-family:"Henny Penny", system-ui;
+     --fe:font-family: "Metal Mania", system-ui;
+}
+header{
+     background-color:rgba(0,0,0,0.6);
+     background-image:url('OIP.jpeg');
+     background-blend-mode: multiply;
+     background-size: cover;
+     background-position: bottom;
+     color: #fff;
+}
+header nav{
+     border-bottom:1px solid var(--gray);
+     display: flex;
+     justify-content: center;
+}
+header nav ul{
+     display: flex;
+     justify-content: space-around;
+     width:50%;
+}
+header nav ul li{
+     list-style: none;
+     padding:15px;
+     padding-bottom:8px;
+} 
+header nav ul li a{
+     text-decoration: none;
+     color:var(--gray);
+     font-weight:500;
+}
+header nav ul li a:hover{
+    color: #fff;
+}
+header h1 , aside h2{
+     text-align: center;
+     color: #fff;
+     font-family: "Metal Mania", system-ui;
+     font-weight:300;
+     letter-spacing:2px;
+     text-transform: capitalize;
+     font-size: 4em;
+     padding:20px;
+}
+header button{
+     background-color: #77777733;
+     color: #fff;
+     border:1px solid var(--blu);
+     padding:10px 20px;
+     text-transform: capitalize;
+     margin-left:50px;
+     margin-bottom:10px;
+}
+header button:hover{
+     background-color: #77777783;
+}
+header .ic{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+} 
+header i{
+     font-size:60px;
+     color:var(--blu);
+     background-color: #56cbf21c;
+     border-radius:100%;
+     margin:3%;
+}
+header i:hover{
+     background-color: #56cbf200;
+     color: #56cbf269;
+}
+
+/*      aside       */
+
+ aside {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+ }
+ aside h2{
+     color: #000;
+     font-size: 3em;
+     padding-bottom:1px;
+ }
+ table{
+      width:70%;
+ }
+ table tr{
+      width:100% ;
+      display: flex;
+      margin:20px 0;
+      padding:10px 0;
+      border-bottom:1px solid var(--gray);
+      justify-content: space-between;
+ }
+ table tr .pp{
+      width:18%;
+ }
+ table tr .btt{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ }
+ table tr td p{
+      text-transform: uppercase;
+      width:65em;
+      font-size:20%;
+      cursor: pointer;
+ }
+ table tr .btt button{
+      background-color:var(--blu);
+      color: #fff;
+      border:none;
+      border-radius:6px;
+      padding:5px;
+      font-size:14px;
+ }
+ table tr .btt button:hover{
+      background-color:#56cbf29c;
+      cursor: pointer;
+ }
+ /*      footer      */
+
+ footer{
+      display: flex;
+      justify-content: space-between;
+      background-color:var(--blu);
+      color: #fff;
+ }
+footer h1{
+      padding:10px;
+      font-size:2em;
+      font-weight:200;
+      text-transform: capitalize;
+      font-family: "Metal Mania", system-ui;
+ }
+ footer div i{
+      padding:10px;
+      font-size:1.8em;
+ }
+ footer div i:hover{
+      cursor: pointer;
+ }
+
+
+
+
+
+ /* aside{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+ }
+ aside h2{
+      color: #000;
+      font-size: 3em;
+      padding-bottom:1px;
+}
+ aside div{
+      display: flex;
+      justify-content: space-around;     
+ } 
+ aside .box{
+      width:100%;
+      display: flex;
+      margin:20px 0;
+      padding:10px 0;
+      border-bottom:1px solid var(--gray);
+      justify-content: center;
+ } */
+
